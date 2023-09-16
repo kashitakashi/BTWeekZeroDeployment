@@ -13,10 +13,8 @@ wget https://github.com/Test2220/cheesy-arena-2220/archive/refs/heads/main.zip
 unzip main.zip 
 
 mv ./cheesy-arena-2220-main/* /CheesyArena/
-
+mv ./Cheesy-arena.service /CheesyArena/
 CD /CheesyArena
 
 go build
-
-wget https://github.com/kashitakashi/BTWeekZeroDeployment/blob/e25335a1a33122778713fec42ceac93644e30978/Cheesy-arena.service
- systemctl link ./Cheesy-arena.service
+systemctl link ./Cheesy-arena.service
