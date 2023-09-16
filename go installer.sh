@@ -10,7 +10,9 @@ export PATH=$PATH:/usr/local/go/bin
 
 wget https://github.com/Test2220/cheesy-arena-2220/archive/refs/heads/main.zip
 
-unzip main.zip "cheesy-arena-2220-main/*" -d /CheesyArena
+unzip main.zip 
+
+mv ./cheesy-arena-2220-main/* /CheesyArena/
 
 CD /CheesyArena
 
