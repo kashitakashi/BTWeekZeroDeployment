@@ -1,6 +1,7 @@
 #!/bin/bash
 apt update
-apt install tar unzip
+apt install unzip -y
+apt dist-upgrade -y
 
 wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
 
