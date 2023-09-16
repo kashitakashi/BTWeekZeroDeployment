@@ -18,4 +18,4 @@ cd /CheesyArena
 
 go build
 wget https://raw.githubusercontent.com/kashitakashi/BTWeekZeroDeployment/main/Cheesy-arena.service
-systemctl link ./Cheesy-arena.service
+systemctl link /CheesyArena/Cheesy-arena.service
