@@ -14,7 +14,7 @@ wget https://github.com/Test2220/cheesy-arena-2220/archive/refs/heads/main.zip
 unzip main.zip 
 mkdir /CheesyArena
 mv ./cheesy-arena-2220-main/* /CheesyArena/
-CD /CheesyArena
+cd /CheesyArena
 
 go build
 wget https://raw.githubusercontent.com/kashitakashi/BTWeekZeroDeployment/main/Cheesy-arena.service
