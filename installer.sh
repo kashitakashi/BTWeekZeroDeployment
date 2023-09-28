@@ -15,5 +15,4 @@ mkdir /CheesyArena
 cd /CheesyArena
 git clone https://github.com/Test2220/cheesy-arena-2220.git
 go build
-wget https://raw.githubusercontent.com/kashitakashi/BTWeekZeroDeployment/main/Cheesy-arena.service
 systemctl link /CheesyArena/Cheesy-arena.service
