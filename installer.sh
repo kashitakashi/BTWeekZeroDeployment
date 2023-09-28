@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update
-apt install unzip -y
 apt dist-upgrade -y
+apt install git -y
 
 wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
 
@@ -9,13 +9,11 @@ tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
 
 export PATH=$PATH:/usr/local/go/bin
 
-wget https://github.com/Test2220/cheesy-arena-2220/archive/refs/heads/main.zip
 
-unzip main.zip 
+
 mkdir /CheesyArena
-mv ./cheesy-arena-2220-main/* /CheesyArena/
 cd /CheesyArena
-
+git clone https://github.com/Test2220/cheesy-arena-2220.git
 go build
 wget https://raw.githubusercontent.com/kashitakashi/BTWeekZeroDeployment/main/Cheesy-arena.service
 systemctl link /CheesyArena/Cheesy-arena.service
