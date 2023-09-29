@@ -13,6 +13,6 @@ export PATH=$PATH:/usr/local/go/bin
 
 mkdir /CheesyArena
 cd /CheesyArena
-git clone https://github.com/Test2220/cheesy-arena-2220.git
+git clone https://github.com/Test2220/cheesy-arena-2220.git /CheesyArena
 go build
 systemctl link /CheesyArena/Cheesy-arena.service
